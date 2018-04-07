@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>Ftl-website</title>
+    <!--== META TAGS ==-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- FAV ICON -->
+<!--     <link rel="shortcut icon" href="images/fav.ico">
+ -->    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins%7CQuicksand:400,500,700" rel="stylesheet">
+    <!-- FONT-AWESOME ICON CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--== ALL CSS FILES ==-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/mob.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+
+    <!-- MOBILE MENU -->
+    <section>
+        <div class="ed-mob-menu">
+            <div class="ed-mob-menu-con">
+                <div class="ed-mm-left">
+                    <div class="wed-logo">
+                        <a href="main.html"><img src="images/logo.png" alt="" />
+						</a>
+                    </div>
+                </div>
+                <div class="ed-mm-right">
+                    <div class="ed-mm-menu">
+                        <a href="#!" class="ed-micon"><i class="fa fa-bars"></i></a>
+                        <div class="ed-mm-inn">
+                            <a href="#!" class="ed-mi-close"><i class="fa fa-times"></i></a>
+                            <h4>Home</h4>
+                         
+                            <h4>Shipments</h4>
+                           
+                            <h4>Trips</h4>
+                           
+                            <h4>About us</h4>
+                          
+                            <h4>Contact us</h4>
+                            
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--HEADER SECTION-->
+    <section>
+        <!-- TOP BAR -->
+        <div class="ed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="ed-com-t1-left">
+                            <ul>
+                                <li><a href="#">Contact: local address here</a>
+                                </li>
+                                <li><a href="#">Phone: +966 2536 66955 336</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ed-com-t1-right">
+                            <ul>
+                                <li><a href="login.html">Sign In</a>
+                                </li>
+                                <li><a href="register.html">Sign Up</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ed-com-t1-social">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LOGO AND MENU SECTION -->
+        <div class="top-logo" data-spy="affix" data-offset-top="250">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="wed-logo">
+                            <a href="main.html"><img src="images/logo.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="main-menu">
+                            <ul>
+                                <li><a href="">Home</a>
+                                </li>
+                                <li >
+                                    <a href="" >About us</a>
+                                 
+                                </li>
+                                <li >
+                                    <a href="#" >Shipments</a>
+                                   
+                                </li>
+                                <li><a href="">Trips</a></li>
+                                <!--<li><a class='dropdown-button ed-sub-menu' href='#' data-activates='dropdown1'>Courses</a></li>-->
+                                <li>
+                                    <a href="#!" >Contact us</a>
+                                   
+                                </li>
+                              
+                            </ul>
+                        </div>
+                        <div class="lang">
+                            <ul class="languagepicker roundborders large">
+                                <a href="#en"><li><img src="http://i64.tinypic.com/fd60km.png"/>English</li></a>
+                                <a href="#de"><li><img src="http://i63.tinypic.com/10zmzyb.png"/>Arabic</li></a>
+                                <a href="#fr"><li><img src="http://i65.tinypic.com/300b30k.png"/>urdo</li></a>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+		<!-- TOP SEARCH BOX -->
+        <div class="search-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="search-form">
+						<form class="tourz-search-form">
+							<div class="input-field">
+								<input type="text" id="select-city" class="autocomplete">
+								<label for="select-city">Enter city</label>
+							</div>
+							<div class="input-field">
+								<input type="text" id="select-search" class="autocomplete">
+								<label for="select-search" class="search-hotel-type">Search  trips and packages</label>
+							</div>
+							<div class="input-field">
+								<input type="submit" value="search" class="waves-effect waves-light tourz-sear-btn"> </div>
+						</form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<!-- END TOP SEARCH BOX -->
+    </section>
+    <!--END HEADER SECTION-->
+
+	
+	<!--HEADER SECTION-->
+	<section>
+		<div class="v2-hom-search">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+					<div class="v2-ho-se-ri">
+						<h1>Delivery by trusted and verified travelers</h1>
+						<p>Discuss about the tip and indicate the potential purchase price of the item. Use our secure payment module to lock in the amount.</p>
+						<div class="tourz-hom-ser v2-hom-ser">
+							<ul>
+								
+								<li>
+									<a href="" class="waves-effect waves-light btn-large tourz-pop-ser-btn"><img src="images/icon/31.png" alt=""> trip</a>
+								</li>
+								<li>
+									<a href="" class="waves-effect waves-light btn-large tourz-pop-ser-btn"><img src="images/box.png" alt=""> package </a>
+								</li>
+															
+							</ul>
+						</div>
+					</div>						
+					</div>	
+					<div class="col-md-6">
+					<div class="">
+						<form class="v2-search-form">
+							<div class="row">
+								<div class="input-field col s12">
+									<input type="text" id="select-city-1" class="autocomplete validate">
+									<label for="select-city-1">Select City or Place</label>
+								</div>
+								<!-- <div class="input-field col s12">
+									<select>
+										<option value="" disabled selected>Select your package</option>
+										<option value="1">Big</option>
+										<option value="2">Midum</option>
+										<option value="3">small</option>
+										
+									</select>
+								</div> -->
+							</div>
+							<div class="row">
+								<div class="input-field col s6">
+									<input type="text" id="from" name="from">
+									<label for="from">Arrival Date</label>
+								</div>
+								<div class="input-field col s6">
+									<input type="text" id="to" name="to">
+									<label for="to">Departure Date</label>
+								</div>
+							</div>
+												
+
+							<!-- <div class="row">
+								<div class="input-field col s6">
+									<select>
+										<option value="" disabled selected>Min Price</option>
+										<option value="1">$200</option>
+										<option value="2">$500</option>
+										<option value="3">$1000</option>
+										<option value="1">$5000</option>
+										<option value="1">$10,000</option>
+										<option value="1">$50,000</option>
+									</select>
+								</div>
+								<div class="input-field col s6">
+									<select>
+										<option value="" disabled selected>Max Price</option>
+										<option value="1">$200</option>
+										<option value="2">$500</option>
+										<option value="3">$1000</option>
+										<option value="1">$5000</option>
+										<option value="1">$10,000</option>
+										<option value="1">$50,000</option>
+									</select>
+								</div>								
+							</div>	 -->						
+							<div class="row">
+								<div class="input-field col s12">
+									<input type="submit" value="search" class="waves-effect waves-light tourz-sear-btn v2-ser-btn">
+								</div>
+							</div>
+						</form>
+					</div>						
+					</div>				
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END HEADER SECTION-->
+    <section id="features-section" class="features-section clearfix">
+            <div class="container">
+
+                <!-- features-items-area - start -->
+                <ul class="features-items-area z-depth-1">
+
+                    <li>
+                        <div class="feature-title mb-15">
+                            <h2>
+                                <i class="ion-android-checkmark-circle"></i>
+                                most secured
+                            </h2>
+                        </div>
+
+                        <div class="feature-contant">
+                            <h3>1</h3>
+                            <p>
+                                Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla paria Excepteur sint occaecat cupid.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="feature-title mb-15">
+                            <h2>
+                                <i class="ion-android-checkmark-circle"></i>
+                                world wide
+                            </h2>
+                        </div>
+
+                        <div class="feature-contant">
+                            <h3>2</h3>
+                            <p>
+                                Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla paria Excepteur sint occaecat cupid.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="feature-title mb-15">
+                            <h2>
+                                <i class="ion-android-checkmark-circle"></i>
+                                24/7 support
+                            </h2>
+                        </div>
+
+                        <div class="feature-contant">
+                            <h3>3</h3>
+                            <p>
+                                Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla paria Excepteur sint occaecat cupid.
+                            </p>
+                        </div>
+                    </li>
+                    
+                </ul>
+                <!-- features-items-area - end -->
+
+
+
+                <!-- features-items-area2 - start -->
+                <ul class="features-items-area2 z-depth-1">
+
+                    <li>
+                        <div class="feature-title mb-15">
+                            <h2>
+                                <i class="ion-android-checkmark-circle"></i>
+                                most secured
+                            </h2>
+                        </div>
+
+                        <div class="feature-contant">
+                            <h3>1</h3>
+                            <p>
+                                Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla paria Excepteur sint occaecat cupid.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="feature-title mb-15">
+                            <h2>
+                                <i class="ion-android-checkmark-circle"></i>
+                                world wide
+                            </h2>
+                        </div>
+
+                        <div class="feature-contant">
+                            <h3>2</h3>
+                            <p>
+                                Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla paria Excepteur sint occaecat cupid.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="feature-title mb-15">
+                            <h2>
+                                <i class="ion-android-checkmark-circle"></i>
+                                24/7 support
+                            </h2>
+                        </div>
+
+                        <div class="feature-contant">
+                            <h3>3</h3>
+                            <p>
+                                Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla paria Excepteur sint occaecat cupid.
+                            </p>
+                        </div>
+                    </li>
+
+                </ul>
+                <!-- features-items-area2 - end -->
+
+            </div>
+        </section>
+	<!--====== HOME PLACES ==========-->
+	<section >
+		<div class="rows pad-bot-redu tb-space ">
+			<div class="container">
+				<!-- TITLE & DESCRIPTION -->
+				<div class="spe-title ">
+					<h2>Top <span> Packages</span></h2>
+					<div class="title-line">
+						<div class="tl-1"></div>
+						<div class="tl-2"></div>
+						<div class="tl-3"></div>
+					</div>
+					<p>Discuss about the tip and indicate the potential purchase price of the item. Use our secure payment module to lock in the amount.</p>
+				</div>
+				<div>
+					<!-- TOUR PLACE 1 -->
+					<div class="col-md-4 col-sm-6 col-xs-12 b_packages">
+						<!-- OFFER BRAND -->
+						<!-- IMAGE -->
+						<div class="v_place_img"> <img src="images/t5.png" alt="Tour Booking" title="Tour Booking" /> </div>
+						<!-- TOUR TITLE & ICONS -->
+						<div class="b_pack rows">
+							<!-- TOUR TITLE -->
+							<div class="col-md-8 col-sm-8">
+								<h4><a href="tour-details.html">Deliver package to<span class="v_pl_name">(Brazil)</span></a></h4> </div>
+							<!-- TOUR ICONS -->
+							<div class="col-md-4 col-sm-4 pack_icon">
+								<ul>
+									<li>
+										<a href="#"><img src="images/clock.png" alt="Date" title="Tour Timing" /> </a>
+									</li>
+									<li>
+										<a href="#"><img src="images/info.png" alt="Details" title="View more details" /> </a>
+									</li>
+									<li>
+										<a href="#"><img src="images/box-1.png" alt="type" title="type" /> </a>
+									</li>
+									<li>
+										<a href="#"><img src="images/map.png" alt="Location" title="Location" /> </a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- TOUR PLACE 2 -->
+					<div class="col-md-4 col-sm-6 col-xs-12 b_packages">
+						<!-- OFFER BRAND -->
+						<!-- IMAGE -->
+						<div class="v_place_img"> <img src="images/t1.png" alt="Tour Booking" title="Tour Booking" /> </div>
+						<!-- TOUR TITLE & ICONS -->
+						<div class="b_pack rows">
+							<!-- TOUR TITLE -->
+							<div class="col-md-8 col-sm-8">
+								<h4><a href="tour-details.html">Deliver package to<span class="v_pl_name">(England)</span></a></h4> </div>
+							<!-- TOUR ICONS -->
+							<div class="col-md-4 col-sm-4 pack_icon">
+								<ul>
+									<li>
+										<a href="#"><img src="images/clock.png" alt="Date" title="Tour Timing" /> </a>
+									</li>
+									<li>
+										<a href="#"><img src="images/info.png" alt="Details" title="View more details" /> </a>
+									</li>
+									<li>
+										<a href="#"><img src="images/box-1.png" alt="type" title="type" /> </a>
+									</li>
+									<li>
+										<a href="#"><img src="images/map.png" alt="Location" title="Location" /> </a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- TOUR PLACE 3 -->
+					<div class="col-md-4 col-sm-6 col-xs-12 b_packages">
+						<div class="v_place_img"><img src="images/t2.png" alt="Tour Booking" title="Tour Booking" /> </div>
+						<div class="b_pack rows">
+							<div class="col-md-8 col-sm-8">
+								<h4><a href="tour-details.html">Deliver package to<span class="v_pl_name">(India)</span></a></h4> </div>
+							<div class="col-md-4 col-sm-4 pack_icon">
+								<ul>
+									<li>
+										<a href="#"><img src="images/clock.png" alt="Date" title="Tour Timing" /> </a>
+									</li>
+									<li>
+										<a href="#"><img src="images/info.png" alt="Details" title="View more details" /> </a>
+									</li>
+									<li>
+										<a href="#"><img src="images/box-2.png" alt="type" title="type" /> </a>
+									</li>
+									<li>
+										<a href="#"><img src="images/map.png" alt="Location" title="Location" /> </a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- TOUR PLACE 4 -->
+					<div class="col-md-4 col-sm-6 col-xs-12 b_packages">
+						<div class="v_place_img"><img src="images/t3.png" alt="Tour Booking" title="Tour Booking" /> </div>
+						<div class="b_pack rows">
+							<div class="col-md-8 col-sm-8">
+								<h4><a href="tour-details.html">Deliver package to<span class="v_pl_name">(China)</span></a></h4> </div>
+							<div class="col-md-4 col-sm-4 pack_icon">
+								<ul>
+									<li>
+										<a href="#"><img src="images/clock.png" alt="Date" title="Tour Timing" /> </a>
+									</li>
+									<li>
+										<a href="#"><img src="images/info.png" alt="Details" title="View more details" /> </a>
+									</li>
+									<li>
+										<a href="#"><img src="images/box-1.png" alt="type" title="type" /> </a>
+									</li>
+									<li>
+										<a href="#"><img src="images/map.png" alt="Location" title="Location" /> </a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- TOUR PLACE 5 -->
+					<div class="col-md-4 col-sm-6 col-xs-12 b_packages">
+						<div class="v_place_img"><img src="images/t4.png" alt="Tour Booking" title="Tour Booking" /> </div>
+						<div class="b_pack rows">
+							<div class="col-md-8 col-sm-8">
+								<h4><a href="tour-details.html">Deliver package to<span class="v_pl_name">(Andaman)</span></a></h4> </div>
+							<div class="col-md-4 col-sm-4 pack_icon">
+								<ul>
+									<li>
+										<a href="#"><img src="images/clock.png" alt="Date" title="Tour Timing" /> </a>
+									</li>
+									<li>
+										<a href="#"><img src="images/info.png" alt="Details" title="View more details" /> </a>
+									</li>
+									<li>
+										<a href="#"><img src="images/box-2.png" alt="type" title="type" /> </a>
+									</li>
+									<li>
+										<a href="#"><img src="images/map.png" alt="Location" title="Location" /> </a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- TOUR PLACE 6 -->
+					<div class="col-md-4 col-sm-6 col-xs-12 b_packages">
+						<div class="v_place_img"><img src="images/t6.png" alt="Tour Booking" title="Tour Booking" /> </div>
+						<div class="b_pack rows">
+							<div class="col-md-8 col-sm-8">
+								<h4><a href="tour-details.html">Deliver package to<span class="v_pl_name">(Indiana)</span></a></h4> </div>
+							<div class="col-md-4 col-sm-4 pack_icon">
+								<ul>
+									<li>
+										<a href="#"><img src="images/clock.png" alt="Date" title="Tour Timing" /> </a>
+									</li>
+									<li>
+										<a href="#"><img src="images/info.png" alt="Details" title="View more details" /> </a>
+									</li>
+									<li>
+										<a href="#"><img src="images/box-2.png" alt="type" title="type" /> </a>
+									</li>
+									<li>
+										<a href="#"><img src="images/map.png" alt="Location" title="Location" /> </a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+	<!--====== EVENTS ==========-->
+	<section>
+		<div class="rows tb-space">
+			<div class="container events events-1" id="inner-page-title">
+				<!-- TITLE & DESCRIPTION -->
+				<div class="spe-title">
+					<h2>Top <span>Trip</span> in this month</h2>
+					<div class="title-line">
+						<div class="tl-1"></div>
+						<div class="tl-2"></div>
+						<div class="tl-3"></div>
+					</div>
+					<p>The traveler is paid after delivery and gets a rating.</p>
+				</div>
+				<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search trip Name.." title="Type in a name">
+				<table id="myTable">
+					<tbody>
+						<tr>
+							<th>#</th>
+							<th>travelar Name</th>
+							<th class="e_h1">Date</th>
+							<th class="e_h1">Time</th>
+							<th class="e_h1">From</th>
+							<th class="e_h1">To</th>
+							<th class="e_h1">The way</th>
+							<th>Request</th>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td><img src="images/img-2.png" alt=""  /><a href="hotels-list.html" class="events-title">user name</a> </td>
+							<td class="e_h1">16.12.2018</td>
+							<td class="e_h1">10.00 PM</td>
+                            <td class="e_h1 " id="part"><img src="images/sent-mail.png" alt="" style="width:15px;"> <span>Cairo</span> </td>
+							<td class="e_h1  "> <img src="images/location.png" alt="" style="width:15px;"> <span>Alex</span></td>
+							<td class="trav-ami2"><img src="images/icon/a16.png" alt=""> <span>by car</span></td>
+							<td><a href="booking.html" class="link-btn">Request Now</a> </td>
+						</tr>
+                        <tr>
+                            <td>2</td>
+                            <td><img src="images/img-1.png" alt=""  /><a href="hotels-list.html" class="events-title">user name</a> </td>
+                            <td class="e_h1">16.12.2018</td>
+                            <td class="e_h1">10.00 PM</td>
+							<td class="e_h1 " id="part"><img src="images/sent-mail.png" alt="" style="width:15px;"> <span>Cairo</span> </td>
+							<td class="e_h1  "> <img src="images/location.png" alt="" style="width:15px;"> <span>Alex</span></td>
+							<td class="trav-ami2"><img src="images/icon/a16.png" alt=""> <span>by car</span></td>
+							<td><a href="booking.html" class="link-btn">Request Now</a> </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td><img src="images/img-7.png" alt=""  /><a href="hotels-list.html" class="events-title">user name</a> </td>
+                            <td class="e_h1">16.12.2018</td>
+                            <td class="e_h1">10.00 PM</td>
+							<td class="e_h1 " id="part"><img src="images/sent-mail.png" alt="" style="width:15px;"> <span>Cairo</span> </td>
+							<td class="e_h1  "> <img src="images/location.png" alt="" style="width:15px;"> <span>Alex</span></td>
+							<td class="trav-ami2"><img src="images/icon/a16.png" alt=""> <span>by car</span></td>
+							<td><a href="booking.html" class="link-btn">Request Now</a> </td>
+                        </tr>
+						<tr>
+                            <td>4</td>
+                            <td><img src="images/img-4.png" alt=""  /><a href="hotels-list.html" class="events-title">user name</a> </td>
+                            <td class="e_h1">16.12.2018</td>
+                            <td class="e_h1">10.00 PM</td>
+                            <td class="e_h1 " id="part"><img src="images/sent-mail.png" alt="" style="width:15px;"> <span>Cairo</span> </td>
+							<td class="e_h1  "> <img src="images/location.png" alt="" style="width:15px;"> <span>Alex</span></td>
+							<td class="trav-ami2"><img src="images/icon/a16.png" alt=""> <span>by car</span></td>
+							<td><a href="booking.html" class="link-btn">Request Now</a> </td>
+                        </tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</section>
+
+	
+	<!--====== REQUEST A QUOTE ==========-->
+	<section>
+		<div class="foot-mob-sec tb-space">
+			<div class="rows container">
+				<!-- FAMILY IMAGE(YOU CAN USE ANY PNG IMAGE) -->
+				<div class="col-md-6 col-sm-6 col-xs-12 family"> <img src="images/mobile.png" alt="" /> </div>
+				<!-- REQUEST A QUOTE -->
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<!-- THANK YOU MESSAGE -->
+					<div class="foot-mob-app">
+						<h2>Have you tried our mobile app?</h2>
+						<p> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+						<ul>
+							<li><i class="fa fa-check" aria-hidden="true"></i> Search for a traveler and get in touch through our messaging system.</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i>The traveler is paid after delivery and gets a rating.</li>
+							
+						</ul>
+						<a href="#"><img src="images/android.png" alt=""> </a>
+						<a href="#"><img src="images/apple.png" alt=""> </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+	
+	
+	<!--====== FOOTER 2 ==========-->
+	<section>
+		<div class="rows">
+			<div class="footer">
+				<div class="container">
+					<div class="foot-sec2">
+						<div>
+							<div class="row">
+								<div class="col-sm-3 foot-spec foot-com">
+									<p style="padding-top: 20px">ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. </p>
+								</div>
+								<div class="col-sm-3 foot-spec foot-com">
+									<h4><span>Address</span> & Contact Info</h4>
+									<p>local address here</p>
+									<p> <span class="strong">Phone: </span> <span class="highlighted">+101-1231-1231</span> </p>
+								</div>
+								<div class="col-sm-3 col-md-3 foot-spec foot-com">
+									<h4><span>SUPPORT</span> & HELP</h4>
+									<ul class="two-columns">
+										<li> <a href="#">About Us</a> </li>
+										<li> <a href="#">FAQ</a> </li>
+										<li> <a href="#">Feedbacks</a> </li>
+										
+										<li> <a href="#">Contact Us</a> </li>
+									</ul>
+								</div>
+								<div class="col-sm-3 foot-social foot-spec foot-com">
+									<h4><span>Follow</span> with us</h4>
+									<p>Join the thousands of other There are many variations of passages of Lorem Ipsum available</p>
+									<ul>
+										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+										<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a> </li>
+										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+										<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </li>
+										<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a> </li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====== FOOTER - COPYRIGHT ==========-->
+	<section>
+		<div class="rows copy">
+			<div class="container">
+				<p>Copyrights © 2018 . All Rights Reserved</p>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="icon-float">
+			<ul>
+				<li><a href="#" class="sh">1k <br> Share</a> </li>
+				<li><a href="#" class="fb1"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+				<li><a href="#" class="gp1"><i class="fa fa-google-plus" aria-hidden="true"></i></a> </li>
+				<li><a href="#" class="tw1"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+				<li><a href="#" class="li1"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </li>
+				<li><a href="#" class="wa1"><i class="fa fa-whatsapp" aria-hidden="true"></i></a> </li>
+				<li><a href="#" class="sh1"><i class="fa fa-envelope-o" aria-hidden="true"></i></a> </li>
+			</ul>
+		</div>
+	</section>
+	<!--========= Scripts ===========-->
+	<script src="js/jquery-latest.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+
+
+</html>
